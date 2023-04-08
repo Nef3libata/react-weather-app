@@ -68,7 +68,7 @@ export default function Weather() {
       <div class="row row-cols-1 row-cols-md-5 g-3" id="forecast"></div>
       <div id="github-link"></div>
       <a
-        href="https://github.com/Nef3libata/weather-app"
+        href="https://github.com/Nef3libata/react-weather-app"
         target="_blank"
         rel="noreferrer"
       >
