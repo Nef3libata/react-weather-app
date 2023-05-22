@@ -1,7 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
+import axios from "axios";
 import "./Weather.css";
 
 export default function Weather() {
+  // const [temperature, setTemperature] = useState({ ready: false });
+  // function handleResponse(response) {
+  //   setTemperature(response.data.main.temp);
+  // }
+  // if (ready) {
   return (
     <div class="container">
       <div class="row">
@@ -77,3 +83,4 @@ export default function Weather() {
     </div>
   );
 }
+// }
